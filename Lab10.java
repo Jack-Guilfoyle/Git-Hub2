@@ -16,14 +16,11 @@ public class Lab10
 
     public static void Q1() 
     {
+        String input = ("");
         while (!input.equals("q")) 
         {
             System.out.println("Pick a shape: square, rectangle, circle (or 'q' to quit)");
-            String input = scan.nextLine();
-            if ()) 
-            {
-                return;
-            }
+            input = scan.nextLine();
             
             if (input.equals("square")) 
             {
