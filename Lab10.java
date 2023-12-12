@@ -60,96 +60,96 @@ public class Lab10
         switch(num)
         {
             case 1:
-            System.out.print("You selected 1st of ");
+            System.out.print("You selected 1st of "); break;
             case 2:
-            System.out.print("You selected 2nd of ");
+            System.out.print("You selected 2nd of "); break;
             case 3:
-            System.out.print("You selected 3rd of ");
+            System.out.print("You selected 3rd of "); break;
             case 4:
-            System.out.print("You selected 4th of ");
+            System.out.print("You selected 4th of "); break;
             case 5:
-            System.out.print("You selected 5th of ");
+            System.out.print("You selected 5th of "); break;
             case 6:
-            System.out.print("You selected 6th of ");
+            System.out.print("You selected 6th of "); break;
             case 7:
-            System.out.print("You selected 7th of ");
+            System.out.print("You selected 7th of "); break;
             case 8:
-            System.out.print("You selected 8th of ");
+            System.out.print("You selected 8th of "); break;
             case 9:
-            System.out.print("You selected 9th of ");
+            System.out.print("You selected 9th of "); break;
             case 10:
-            System.out.print("You selected 10th of ");
+            System.out.print("You selected 10th of "); break;
             case 11:
-            System.out.print("You selected 11th of ");
+            System.out.print("You selected 11th of "); break;
             case 12:
-            System.out.print("You selected 12th of ");
+            System.out.print("You selected 12th of "); break;
             case 13:
-            System.out.print("You selected 13th of ");
+            System.out.print("You selected 13th of "); break;
             case 14:
-            System.out.print("You selected 14th of ");
+            System.out.print("You selected 14th of "); break;
             case 15:
-            System.out.print("You selected 15th of ");
+            System.out.print("You selected 15th of "); break;
             case 16:
-            System.out.print("You selected 16th of ");
+            System.out.print("You selected 16th of "); break;
             case 17:
-            System.out.print("You selected 17th of ");
+            System.out.print("You selected 17th of "); break;
             case 18:
-            System.out.print("You selected 18th of ");
+            System.out.print("You selected 18th of "); break;
             case 19:
-            System.out.print("You selected 19th of ");
+            System.out.print("You selected 19th of "); break;
             case 20:
-            System.out.print("You selected 20th of ");
+            System.out.print("You selected 20th of "); break;
             case 21:
-            System.out.print("You selected 21st of ");
+            System.out.print("You selected 21st of "); break;
             case 22:
-            System.out.print("You selected 22nd of ");
+            System.out.print("You selected 22nd of "); break;
             case 23:
-            System.out.print("You selected 23rd of ");
+            System.out.print("You selected 23rd of "); break;
             case 24:
-            System.out.print("You selected 24th of ");
+            System.out.print("You selected 24th of "); break;
             case 25:
-            System.out.print("You selected 25th of ");
+            System.out.print("You selected 25th of "); break;
             case 26:
-            System.out.print("You selected 26th of ");
+            System.out.print("You selected 26th of "); break;
             case 27:
-            System.out.print("You selected 27th of ");
+            System.out.print("You selected 27th of "); break;
             case 28:
-            System.out.print("You selected 28th of ");
+            System.out.print("You selected 28th of "); break;
             case 29:
-            System.out.print("You selected 29th of ");
+            System.out.print("You selected 29th of "); break;
             case 30:
-            System.out.print("You selected 30th of ");
+            System.out.print("You selected 30th of "); break;
             case 31:
-            System.out.print("You selected 31st of ");
+            System.out.print("You selected 31st of "); break;
 
         }
 
-        if(num2 == 1) {
-            System.out.println("January");
-        } else if (num2 == 2) {
-            System.out.println("February");
-        } else if (num2 == 3) {
-            System.out.println("March");
-        } else if (num2 == 4) {
-            System.out.println("April");
-        } else if (num2 == 5) {
-            System.out.println("May");
-        } else if (num2 == 6) {
-            System.out.println("June");
-        } else if (num2 == 7) {
-            System.out.println("July");
-        } else if (num2 == 8) {
-            System.out.println("August");
-        } else if (num2 == 9) {
-            System.out.println("September");
-        } else if (num2 == 10) {
-            System.out.println("October");
-        } else if (num2 == 11) {
-            System.out.println("November");
-        } else if (num2 == 12) {
-            System.out.println("December");
-        } else {
-            System.out.println("Invalid month");
+        switch(num2)
+        {
+            case 1:
+            System.out.println("January"); break;
+            case 2:
+            System.out.println("February"); break;
+            case 3:
+            System.out.println("March"); break;
+            case 4:
+            System.out.println("April"); break;
+            case 5:
+            System.out.println("May"); break;
+            case 6:
+            System.out.println("June"); break;
+            case 7:
+            System.out.println("July"); break;
+            case 8:
+            System.out.println("August"); break;
+            case 9:
+            System.out.println("September"); break;
+            case 10:
+            System.out.println("October"); break;
+            case 11:
+            System.out.println("November"); break;
+            case 12:
+            System.out.println("December"); break;
         }
     }
 
