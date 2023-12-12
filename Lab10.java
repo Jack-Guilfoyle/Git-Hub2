@@ -121,6 +121,8 @@ public class Lab10
             System.out.print("You selected 30th of "); break;
             case 31:
             System.out.print("You selected 31st of "); break;
+            default:
+            System.out.println("Invalid day");
 
         }
 
@@ -150,6 +152,8 @@ public class Lab10
             System.out.println("November"); break;
             case 12:
             System.out.println("December"); break;
+            default:
+            System.out.println("Invalid month");
         }
     }
 
@@ -158,26 +162,28 @@ public static void Q3()
     System.out.println("Q3: Enter how many numbers you want to check for primality: ");
     int n = scan.nextInt();
     int counter = 0;
-    for (int i = 0; i < n; i++) {
-    if (i < 2)
-    continue;
-    boolean check = true;
-
-    for (int j = 2; j * j <= i; j++) 
+    for (int i = 0; i < n; i++) 
     {
-        if (i % j == 0) {
-        check = false;
-        break;
-    }
-    }
-        if (check == true) 
+        if (i < 2)
+        continue;
+        boolean check = true;
+
+        for (int j = 2; j * j <= i; j++) 
+        {
+            if (i % j == 0)
+            {
+                check = false;
+                break;
+            }
+        }
+        if (check)
         {
             counter++;
         }
     }
 
-        System.out.println("There are: " + counter + " primes between 0 and " + n);
-    }
+    System.out.println("There are: " + counter + " primes between 0 and " + n);
+}
 
     public static void Q4() 
     {
