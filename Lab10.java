@@ -168,17 +168,12 @@ public static void Q3()
         if (i % j == 0) {
         check = false;
         break;
-    } 
-    else 
-    {
-
     }
     }
         if (check == true) 
         {
             counter++;
-        } 
-        else {}
+        }
     }
 
         System.out.println("There are: " + counter + " primes between 0 and " + n);
