@@ -197,7 +197,7 @@ public static void Q3()
         int enemyHP = 100;
         int turnNo = 0;
 
-        boolean check = false;
+        boolean buffAdded = false;
         while (true) 
         {
 
@@ -213,7 +213,7 @@ public static void Q3()
                         doAttack = true;
                         break;
                     case "B", "b":
-                        check = true;
+                        buffAdded = true;
                         System.out.println("Buffing! +5 to your next attack roll and damage");
                         break;
                     default:
@@ -222,12 +222,13 @@ public static void Q3()
                 }
             }
 
-            if (doAttack) {
+            if (doAttack) 
+            {
                 turnNo++;
                 int attackRoll = rng.nextInt(20) + 1;
                 int damage = 0;
                 System.out.print("You rolled: " + attackRoll);
-                if(check) 
+                if(buffAdded) 
                 {
                     attackRoll += 5;
                     System.out.print(" + 5 (buff active)\n");
@@ -240,17 +241,17 @@ public static void Q3()
                 {
                     damage = rng.nextInt(8) + 1;
                     damage += rng.nextInt(8) + 1;
-                    if(check) 
+                    if(buffAdded) 
                     {
                         damage += 5;
                     }
-                    if (attackRoll == 20 || (check && attackRoll == 20 + 5)) 
+                    if (attackRoll == 20 || (buffAdded && attackRoll == 20 + 5)) 
                     {
                         damage *= 2;
                         System.out.print("Critical hit! ");
                     }
                     System.out.print("You dealt " + damage + " damage");
-                    if(check) 
+                    if(buffAdded) 
                     {
                         System.out.print(" (buffed attack)");
                     }
@@ -263,7 +264,7 @@ public static void Q3()
                     System.out.println("Miss");
                 }
 
-                check = false;
+                buffAdded = false;
                 if (enemyHP <= 0) 
                 {
                     System.out.println("Enemy died in " + turnNo + " turns");
