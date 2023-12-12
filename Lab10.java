@@ -156,7 +156,7 @@ public class Lab10
 public static void Q3() 
 {
     System.out.println("Q3: Enter how many numbers you want to check for primality: ");
-    int n = Integer.parseInt(scan.nextLine());
+    int n = scan.nextInt();
     int counter = 0;
     for (int i = 0; i < n; i++) {
     if (i < 2)
