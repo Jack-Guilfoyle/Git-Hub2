@@ -57,70 +57,71 @@ public class Lab10
         System.out.println("Enter the current month: (1-12)");
         int num2 = Integer.parseInt(scan.nextLine());
 
-        if (num == 1)
+        switch(num)
+        {
+            case 1:
             System.out.print("You selected 1st of ");
-        else if (num == 2)
+            case 2:
             System.out.print("You selected 2nd of ");
-        else if (num == 3)
+            case 3:
             System.out.print("You selected 3rd of ");
-        else if (num == 4)
+            case 4:
             System.out.print("You selected 4th of ");
-        else if (num == 5)
+            case 5:
             System.out.print("You selected 5th of ");
-        else if (num == 6)
+            case 6:
             System.out.print("You selected 6th of ");
-        else if (num == 7)
+            case 7:
             System.out.print("You selected 7th of ");
-        else if (num == 8)
+            case 8:
             System.out.print("You selected 8th of ");
-        else if (num == 9)
+            case 9:
             System.out.print("You selected 9th of ");
-        else if (num == 10)
+            case 10:
             System.out.print("You selected 10th of ");
-        else if (num == 11)
+            case 11:
             System.out.print("You selected 11th of ");
-        else if (num == 12)
+            case 12:
             System.out.print("You selected 12th of ");
-        else if (num == 13)
+            case 13:
             System.out.print("You selected 13th of ");
-        else if (num == 14)
+            case 14:
             System.out.print("You selected 14th of ");
-        else if (num == 15)
+            case 15:
             System.out.print("You selected 15th of ");
-        else if (num == 16)
+            case 16:
             System.out.print("You selected 16th of ");
-        else if (num == 17)
+            case 17:
             System.out.print("You selected 17th of ");
-        else if (num == 18)
+            case 18:
             System.out.print("You selected 18th of ");
-        else if (num == 19)
+            case 19:
             System.out.print("You selected 19th of ");
-        else if (num == 20)
+            case 20:
             System.out.print("You selected 20th of ");
-        else if (num == 21)
+            case 21:
             System.out.print("You selected 21st of ");
-        else if (num == 22)
+            case 22:
             System.out.print("You selected 22nd of ");
-        else if (num == 23)
+            case 23:
             System.out.print("You selected 23rd of ");
-        else if (num == 24)
+            case 24:
             System.out.print("You selected 24th of ");
-        else if (num == 25)
+            case 25:
             System.out.print("You selected 25th of ");
-        else if (num == 26)
+            case 26:
             System.out.print("You selected 26th of ");
-        else if (num == 27)
+            case 27:
             System.out.print("You selected 27th of ");
-        else if (num == 28)
+            case 28:
             System.out.print("You selected 28th of ");
-        else if (num == 29)
+            case 29:
             System.out.print("You selected 29th of ");
-        else if (num == 30)
+            case 30:
             System.out.print("You selected 30th of ");
-        else if (num == 31)
+            case 31:
             System.out.print("You selected 31st of ");
-        else {
-            System.out.println("Invalid day");
+
         }
 
         if(num2 == 1) {
@@ -138,7 +139,7 @@ public class Lab10
         } else if (num2 == 7) {
             System.out.println("July");
         } else if (num2 == 8) {
-            System.out.println("Augst");
+            System.out.println("August");
         } else if (num2 == 9) {
             System.out.println("September");
         } else if (num2 == 10) {
